@@ -53,7 +53,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Sound\AudioFade.cs" />
+     <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Title\TitleOptions.cs" />
+     <Compile Include="Assets\Scripts\UI\ScreenUI.cs" />
+     <Compile Include="Assets\Scripts\Utility\Game.cs" />
      <Compile Include="Assets\Scripts\Utility\GoToScene.cs" />
      <Compile Include="Assets\Scripts\World\World.cs" />
      <Compile Include="Assets\Scripts\World\WorldTitle.cs" />

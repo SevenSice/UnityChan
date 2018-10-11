@@ -11,27 +11,16 @@ public class GoToScene : MonoBehaviour
     //要跳转的场景ID
     public int sceneID = 0;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
      void GotoScene()
     {
         if (sceneName=="")
         {
-            SceneManager.LoadScene(sceneID);
+            Game.screenUI().FadeAndGo(sceneID);          
         }
         else
         {
-            SceneManager.LoadScene(sceneName);
+            Game.screenUI().FadeAndGo(sceneName);
         }
 
     }

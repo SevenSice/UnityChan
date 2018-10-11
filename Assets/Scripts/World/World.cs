@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class World : MonoBehaviour {
 
+    public SoundManager sound;
+
+    void Awake()
+    {
+        sound = Object.FindObjectOfType<SoundManager>();
+    }
 	// Use this for initialization
-	void Start () {
+	void Start () { 
 		
 	}
 	
