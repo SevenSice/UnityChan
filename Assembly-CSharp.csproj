@@ -53,6 +53,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Charactor\Controller.cs" />
+     <Compile Include="Assets\Scripts\Charactor\NormalController.cs" />
      <Compile Include="Assets\Scripts\Sound\AudioFade.cs" />
      <Compile Include="Assets\Scripts\Sound\SoundManager.cs" />
      <Compile Include="Assets\Scripts\Title\TitleOptions.cs" />
