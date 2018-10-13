@@ -53,6 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Behaviour\AttackBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Behaviour\MovementBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Charactor\BattleController.cs" />
      <Compile Include="Assets\Scripts\Charactor\Controller.cs" />
      <Compile Include="Assets\Scripts\Charactor\NormalController.cs" />
      <Compile Include="Assets\Scripts\Sound\AudioFade.cs" />
